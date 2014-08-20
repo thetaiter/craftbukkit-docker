@@ -1,0 +1,62 @@
+[23:27:44] [Server thread/INFO]: Starting minecraft server version 1.7.9
+[23:27:44] [Server thread/INFO]: Loading properties
+[23:27:44] [Server thread/INFO]: Default game type: SURVIVAL
+[23:27:44] [Server thread/INFO]: Generating keypair
+[23:27:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:27:45] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks (MC: 1.7.9) (Implementing API version 1.7.9-R0.2)
+[23:27:45] [Server thread/WARN]: Failed to load user banlist: 
+java.io.FileNotFoundException: banned-players.json (No such file or directory)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_65]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_65]
+	at net.minecraft.util.com.google.common.io.Files.newReader(Files.java:86) ~[craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.JsonList.load(JsonList.java:147) ~[craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedPlayerList.y(SourceFile:99) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedPlayerList.<init>(SourceFile:25) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.MinecraftServer.run(MinecraftServer.java:436) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.ThreadServerApplication.run(SourceFile:628) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+[23:27:45] [Server thread/WARN]: Failed to load ip banlist: 
+java.io.FileNotFoundException: banned-ips.json (No such file or directory)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_65]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_65]
+	at net.minecraft.util.com.google.common.io.Files.newReader(Files.java:86) ~[craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.JsonList.load(JsonList.java:147) ~[craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedPlayerList.x(SourceFile:91) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedPlayerList.<init>(SourceFile:27) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.MinecraftServer.run(MinecraftServer.java:436) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.ThreadServerApplication.run(SourceFile:628) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+[23:27:45] [Server thread/WARN]: Failed to load operators list: 
+java.io.FileNotFoundException: ops.json (No such file or directory)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_65]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_65]
+	at net.minecraft.util.com.google.common.io.Files.newReader(Files.java:86) ~[craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.JsonList.load(JsonList.java:147) ~[craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedPlayerList.z(SourceFile:107) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedPlayerList.<init>(SourceFile:29) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.MinecraftServer.run(MinecraftServer.java:436) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.ThreadServerApplication.run(SourceFile:628) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+[23:27:45] [Server thread/WARN]: Failed to load white-list: 
+java.io.FileNotFoundException: whitelist.json (No such file or directory)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_65]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_65]
+	at net.minecraft.util.com.google.common.io.Files.newReader(Files.java:86) ~[craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.JsonList.load(JsonList.java:147) ~[craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedPlayerList.B(SourceFile:123) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedPlayerList.<init>(SourceFile:30) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.MinecraftServer.run(MinecraftServer.java:436) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.ThreadServerApplication.run(SourceFile:628) [craftbukkit.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+[23:27:45] [Server thread/INFO]: Preparing level "AwesomeLand"
+[23:27:45] [Server thread/INFO]: Preparing start region for level 0 (Seed: 9161929203292037324)
+[23:27:45] [Thread-6/INFO]: ----- Bukkit Auto Updater -----
+[23:27:45] [Thread-6/INFO]: It appears that you're running a Beta Build, when you've specified in bukkit.yml that you prefer to run Recommended Builds.
+[23:27:45] [Thread-6/INFO]: If you would like to be kept informed about new Beta Build releases, it is recommended that you change 'preferred-channel' in your bukkit.yml to 'beta'.
+[23:27:45] [Thread-6/INFO]: With that set, you will be told whenever a new version is available for download, so that you can always keep up to date and secure with the latest fixes.
+[23:27:45] [Thread-6/INFO]: If you would like to disable this warning, simply set 'suggest-channels' to false in bukkit.yml.
+[23:27:45] [Thread-6/INFO]: ----- ------------------- -----
+[23:27:46] [Server thread/INFO]: Preparing spawn area: 67%
+[23:27:46] [Server thread/INFO]: Preparing start region for level 1 (Seed: 9161929203292037324)
+[23:27:46] [Server thread/INFO]: Preparing start region for level 2 (Seed: 9161929203292037324)
+[23:27:47] [Server thread/INFO]: Done (1.919s)! For help, type "help" or "?"
