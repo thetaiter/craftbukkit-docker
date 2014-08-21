@@ -1,4 +1,8 @@
 world/
 world_nether/
 world_the_end/
-*/server.properties
+server/*.yml
+server/*.json
+server/*.jar
+server/logs/
+*.swp
