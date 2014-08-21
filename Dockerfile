@@ -4,7 +4,7 @@ FROM phusion/baseimage:0.9.12
 ENV HOME /root
 
 RUN apt-get update
-RUN apt-get -y install openjdk-7-jre-headless wget
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install openjdk-7-jre-headless wget
 
 RUN mkdir -p /root/minecraft
 RUN mkdir -p /root/scripts
