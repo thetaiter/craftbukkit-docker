@@ -7,7 +7,8 @@ This repository's purpose is to run a minecraft craftbukkit server within a dock
 ###Installation
 In order to install craftbukkit-docker, you must first have docker successfully installed on your machine. You can see how to do this [here](http://docs.docker.com/installation/ubuntulinux/). Once you have docker set up, you can install craftbukkit-docker by following these steps:
 
-1. Clone this repository locally:```
+1. Clone this repository locally:
+```
 $ mkdir ~/minecraft <br>
 $ cd ~/minecraft
 $ git clone https://github.com/thetaiter/craftbukkit-docker.git
