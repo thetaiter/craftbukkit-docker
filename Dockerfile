@@ -9,7 +9,6 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install openjdk-7-jre-headless wge
 RUN mkdir -p /root/minecraft
 RUN mkdir -p /root/scripts
 
-COPY ./server /root/minecraft
 COPY ./scripts /root/scripts
 
 RUN cd /root/scripts && wget http://dl.bukkit.org/latest-beta/craftbukkit.jar
